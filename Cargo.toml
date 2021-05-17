@@ -1,0 +1,11 @@
+[package]
+name = "dreamos"
+version = "1.0.0"
+authors = ["lizhirui <exiis@126.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = { version = "1", features = ["spin_no_std"] }
+spin = "0.7"

@@ -1,0 +1,12 @@
+[package]
+name = "qemu_virt_rv64"
+version = "1.0.0"
+edition = "2018"
+authors = ["lizhirui <exiis@126.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dreamos = {path = "../../../"}
+arch = {path = "../../arch/riscv64"}
+firmware = {path = "../../firmware/opensbi_virt_rv64"}

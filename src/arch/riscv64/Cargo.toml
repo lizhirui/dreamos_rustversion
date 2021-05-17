@@ -1,0 +1,13 @@
+[package]
+name = "arch"
+version = "1.0.0"
+edition = "2018"
+authors = ["lizhirui <exiis@126.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dreamos = {path = "../../../"}
+
+[build-dependencies]
+cc = { version = "1.0", features = ["parallel"] }
